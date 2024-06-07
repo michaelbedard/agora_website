@@ -1,0 +1,125 @@
+.main {
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    text-align: right;
+    padding: 10px;
+}
+
+.logo {
+    width: 50px;
+    height: auto;
+}
+
+.content {
+    padding: 0 20px 20px;
+}
+
+.bannerSection {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.banner {
+    top: 0;
+    width: 50%;
+    height: auto;
+}
+
+.headerText {
+    font-size: 36px;
+    margin: 40px 0;
+}
+
+.downloadBtn {
+    padding: 10px 20px;
+    font-size: 16px;
+    height: 70px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.downloadBtn span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.videoSection {
+    position: relative;
+    text-align: center;
+    padding-top: 20px;
+    margin: 20px 0;
+}
+
+.video {
+    width: 100%;
+    max-width: 960px;
+    height: 540px;
+    position: relative;
+}
+
+.descriptionSection {
+    padding: 20px;
+    background-color: #f1f1f1;
+    text-align: center;
+}
+
+.description {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.followMeSection {
+    height: 16vh;
+    margin-bottom: 0;
+    margin-top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.followMeSection img {
+    width: 50px;
+    height: auto;
+}
+
+.subscribeBox {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    height: 70px;
+}
+
+.subscribeInput {
+    padding: 10px;
+    font-size: 16px;
+    width: 60%;
+}
+
+.subscribeBtn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.footer {
+    color: white;
+    text-align: left;
+    padding: 10px;
+}
+
+.footerLogo {
+    width: 100px;
+    height: auto;
+}
