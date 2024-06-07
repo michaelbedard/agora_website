@@ -48,7 +48,7 @@ export default function Home() {
                         className={styles.banner}
                     />
                     <h1 className={styles.headerText}>
-                        Welcome to Agora! Discover, play, and discuss digital versions of unique games while connecting with fellow enthusiasts! Click bellow to download and try our latest prototype (Alpha 0.1).
+                        Welcome to Agora! Discover, play, and discuss digital versions of unique games while connecting with new people!
                     </h1>
                     <button className={styles.downloadBtn}> <span>Click here to download for Windows & Mac <img alt={""} src={"/download.png"} style={{width: "30px", marginLeft: "20px"}}/> </span> </button>
                 </div>
