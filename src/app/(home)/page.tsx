@@ -1,7 +1,6 @@
 'use client'
 
 import styles from "./page.module.css";
-import Banner from "../../../public/Agora_bannier_noBackground.png"
 import React, {ChangeEvent, useRef, useState} from "react";
 import Link from "next/link";
 import emailjs from 'emailjs-com';
@@ -48,9 +47,16 @@ export default function Home() {
                         className={styles.banner}
                     />
                     <h1 className={styles.headerText}>
-                        Welcome to Agora! Discover, play, and discuss digital versions of unique games while connecting with new people!
+                        Welcome to Agora! Connect with new people over board games!
                     </h1>
-                    <button className={styles.downloadBtn}> <span>Click here to download for Windows & Mac <img alt={""} src={"/download.png"} style={{width: "30px", marginLeft: "20px"}}/> </span> </button>
+                    <button
+                        className={styles.downloadBtn}
+                        onClick={() => alert("Please come back this August 15th to download")}
+                    >
+                        <span>Click here to download for Windows & Mac
+                            <img alt={""} src={"/download.png"} style={{width: "30px", marginLeft: "20px"}}/>
+                        </span>
+                    </button>
                 </div>
 
                 <div className={styles.videoSection}>
@@ -58,7 +64,7 @@ export default function Home() {
                         className={styles.video}
                         width="700"
                         height="500"
-                        src="https://www.youtube.com/embed/0YppLLDJoE0"
+                        src="https://www.youtube.com/watch?v=mcGO9z2PKfs"
                         title="YouTube video player"
                         frameBorder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
