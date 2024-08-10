@@ -35,6 +35,7 @@ export default function Home() {
     }
 
     return (
+        //
         <div className={styles.main}>
             <div className={styles.header}>
                 <img src="/logo_no_text_no_background.png" alt="Logo" className={styles.logo} />
