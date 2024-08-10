@@ -1,5 +1,6 @@
 .main {
     font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, var(--blue-200), var(--blue-800));
 }
 
 .header {

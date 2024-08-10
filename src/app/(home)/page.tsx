@@ -1,6 +1,7 @@
 'use client'
 
 import styles from "./page.module.css";
+import Banner from "../../../public/Agora_bannier_noBackground.png"
 import React, {ChangeEvent, useRef, useState} from "react";
 import Link from "next/link";
 import emailjs from 'emailjs-com';
@@ -35,7 +36,6 @@ export default function Home() {
     }
 
     return (
-        //
         <div className={styles.main}>
             <div className={styles.header}>
                 <img src="/logo_no_text_no_background.png" alt="Logo" className={styles.logo} />
@@ -65,7 +65,7 @@ export default function Home() {
                         className={styles.video}
                         width="700"
                         height="500"
-                        src="https://www.youtube.com/watch?v=mcGO9z2PKfs"
+                        src="https://www.youtube.com/embed/mcGO9z2PKfs"
                         title="YouTube video player"
                         frameBorder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
