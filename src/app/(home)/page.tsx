@@ -52,11 +52,11 @@ export default function Home() {
                     </h1>
                     <button
                         className={styles.downloadBtn}
-                        onClick={() => alert("Please come back this August 15th to download")}
+                        onClick={() => window.location.href = "https://drive.google.com/drive/folders/1gViWg_NbjbGPh_gVmspXYKDbFsaiV522?usp=sharing"}
                     >
-                        <span>Click here to download for Windows & Mac
-                            <img alt={""} src={"/download.png"} style={{width: "30px", marginLeft: "20px"}}/>
-                        </span>
+    <span>Click here to download for Windows & Mac
+        <img alt={""} src={"/download.png"} style={{width: "30px", marginLeft: "20px"}}/>
+    </span>
                     </button>
                 </div>
 
